@@ -37,5 +37,9 @@ public class LoginUser
     [PasswordPropertyText]
     public string? Password { get; set; }
 
+
+    public bool RememberMe { get; set; }
+
+
 }
 
