@@ -4,6 +4,11 @@ namespace EcommerceApi.Utils
 {
     public static class UserUtiles
     {
+
+        public static readonly string AdminRole = "AdminUser";
+        public static readonly string UserRole = "RegularUser";
+
+
         public static bool IfEmail(string? str)
         {
             if (str is null)

@@ -6,10 +6,27 @@ namespace EcommerceApi.DTO;
 
 public class UserDTOS : UserBase
 {
-    public virtual ICollection<int>? Orders { get; set; }
+    [Key]
+    public int ID { get; set; }
+
 }
 
-public class UserDTOR
+public class UserDTOR : UserBase
+{
+
+
+    [Required]
+    [PasswordPropertyText]
+    public string? Password { get; set; }
+
+
+    [Required]
+    [PasswordPropertyText]
+    public string? ConfirmPassword { get; set; }
+
+}
+
+public class LoginUser
 {
 
     [Required]
@@ -20,5 +37,5 @@ public class UserDTOR
     [PasswordPropertyText]
     public string? Password { get; set; }
 
-
 }
+

@@ -82,4 +82,45 @@ public class Mapper
 
         return data;
     }
+
+
+
+
+
+
+    public static T? Map<T>(User? from) where T : UserDTOS?, new()
+    {
+        if (from == null)
+            return null;
+
+        T data = new()
+        {
+            ID = from.ID,
+            UserName = from.UserName,
+            Email = from.Email,
+            Phone = from.Phone,
+            Address = from.Address
+        };
+        return data;
+    }
+
+
+    public static T? Map<T>(UserDTOR? from) where T : User?, new()
+    {
+        if (from == null || from.Password == null || from.ConfirmPassword == null || from.Password != from.ConfirmPassword)
+            return null;
+
+        string salt = Hasher.GenerateSalt();
+        T data = new()
+        {
+            UserName = from.UserName,
+            Email = from.Email,
+            Phone = from.Phone,
+            Address = from.Address,
+            Salt = salt,
+            HashedPassword = Hasher.GenerateHash(from.Password, salt),
+            Role = UserUtiles.UserRole
+        };
+        return data;
+    }
 }
