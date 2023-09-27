@@ -232,3 +232,7 @@ D:\EcommerceApiSolution\EcommerceApi\obj\Debug\net7.0\refint\EcommerceApi.dll
 D:\EcommerceApiSolution\EcommerceApi\obj\Debug\net7.0\EcommerceApi.pdb
 D:\EcommerceApiSolution\EcommerceApi\obj\Debug\net7.0\EcommerceApi.genruntimeconfig.cache
 D:\EcommerceApiSolution\EcommerceApi\obj\Debug\net7.0\ref\EcommerceApi.dll
+D:\EcommerceApiSolution\EcommerceApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\EcommerceApiSolution\EcommerceApi\bin\Debug\net7.0\Scrutor.dll
+D:\EcommerceApiSolution\EcommerceApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.dll
+D:\EcommerceApiSolution\EcommerceApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\EcommerceApiSolution\\EcommerceApi\\EcommerceApi.csproj": {}
+    "D:\\EcommerceApiSolution\\EcommerceApi\\EcommerceApi.csproj": {}
   },
   "projects": {
-    "d:\\EcommerceApiSolution\\EcommerceApi\\EcommerceApi.csproj": {
+    "D:\\EcommerceApiSolution\\EcommerceApi\\EcommerceApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\EcommerceApiSolution\\EcommerceApi\\EcommerceApi.csproj",
+        "projectUniqueName": "D:\\EcommerceApiSolution\\EcommerceApi\\EcommerceApi.csproj",
         "projectName": "EcommerceApi",
-        "projectPath": "d:\\EcommerceApiSolution\\EcommerceApi\\EcommerceApi.csproj",
+        "projectPath": "D:\\EcommerceApiSolution\\EcommerceApi\\EcommerceApi.csproj",
         "packagesPath": "C:\\Users\\alwky\\.nuget\\packages\\",
-        "outputPath": "d:\\EcommerceApiSolution\\EcommerceApi\\obj\\",
+        "outputPath": "D:\\EcommerceApiSolution\\EcommerceApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alwky\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -41,6 +41,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -73,6 +77,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[7.0.11, )"
             }
           },
           "imports": [

@@ -2,12 +2,14 @@ using EcommerceApi.DTO;
 using EcommerceApi.Models;
 using EcommerceApi.Utils;
 using EcommerceApi.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace EcommerceApi.Controllers
 {
     [ApiController]
+    [Authorize(Roles = UserUtiles.AdminRole)]
     [Route("api/[controller]")]
     public class UsersController : ControllerBase
     {
